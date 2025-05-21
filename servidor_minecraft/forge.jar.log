@@ -1,7 +1,7 @@
 JVM info: Microsoft - 21.0.6 - 21.0.6+7-LTS
 java.net.preferIPv4Stack=true
-Current Time: 18/05/2025 14:50:43
-Host: files.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Current Time: 21/05/2025 02:09:04
+Host: files.minecraftforge.net [104.21.58.163, 172.67.161.211]
 Host: maven.minecraftforge.net [172.67.161.211, 104.21.58.163]
 Host: libraries.minecraft.net [13.107.246.41]
 Host: launchermeta.mojang.com [13.107.246.41]
@@ -200,7 +200,7 @@ Considering library org.ow2.asm:asm:9.6
 Considering library trove:trove:1.0.2
   Downloading library from https://maven.creeperhost.net/trove/trove/1.0.2/trove-1.0.2.jar
     Download completed: Checksum validated.
-Created Temporary Directory: /tmp/forge_installer7864088699188632043
+Created Temporary Directory: /tmp/forge_installer4130100584696635791
   Extracting: /data/server.lzma
 Building Processors
 ===============================================================================
@@ -10018,7 +10018,7 @@ Forge Auto Renaming Tool v0.1.22
 log: null
 input: /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-slim.jar
 output: /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar
-threads: 2
+threads: 4
 Names: /workspaces/SevenServer/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.19.2-20220805.130853/mcp_config-1.19.2-20220805.130853-mappings-merged.txt(reversed: false)
 Fix Annotations: true
 Fix Records: true
@@ -10031,21 +10031,21 @@ Reading Input: /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecr
 Adding input to inheritence map
 Processing entries
 Cant Find Class: org/slf4j/Logger
+Cant Find Class: javax/annotation/ParametersAreNonnullByDefault
+Cant Find Class: javax/annotation/Nullable
 Cant Find Class: org/apache/commons/lang3/exception/ExceptionUtils
 Cant Find Class: com/google/common/base/MoreObjects
-Cant Find Class: javax/annotation/Nullable
 Cant Find Class: com/google/common/collect/Lists
-Cant Find Class: com/mojang/brigadier/exceptions/CommandSyntaxException
-Cant Find Class: com/mojang/brigadier/Message
-Cant Find Class: org/apache/commons/io/IOUtils
-Cant Find Class: com/mojang/serialization/Keyable
-Cant Find Class: com/mojang/logging/LogUtils
-Cant Find Class: javax/annotation/ParametersAreNonnullByDefault
 Cant Find Class: com/google/common/collect/Sets
 Cant Find Class: com/google/common/collect/Maps
+Cant Find Class: com/mojang/brigadier/exceptions/CommandSyntaxException
+Cant Find Class: org/apache/commons/io/IOUtils
+Cant Find Class: com/mojang/serialization/Keyable
+Cant Find Class: com/mojang/brigadier/Message
+Cant Find Class: com/mojang/logging/LogUtils
+Cant Find Class: com/mojang/authlib/GameProfile
 Cant Find Class: com/mojang/datafixers/util/Pair
 Cant Find Class: com/google/common/collect/ImmutableList
-Cant Find Class: com/mojang/authlib/GameProfile
 Cant Find Class: com/google/common/escape/Escapers$Builder
 Cant Find Class: com/google/common/escape/Escapers
 Cant Find Class: com/google/common/escape/Escaper
@@ -10055,19 +10055,19 @@ Cant Find Class: com/mojang/brigadier/exceptions/SimpleCommandExceptionType
 Cant Find Class: com/mojang/brigadier/exceptions/CommandExceptionType
 Cant Find Class: com/mojang/brigadier/context/CommandContext
 Cant Find Class: com/mojang/brigadier/suggestion/SuggestionsBuilder
-Cant Find Class: com/mojang/brigadier/suggestion/Suggestions
 Cant Find Class: com/mojang/brigadier/CommandDispatcher
 Cant Find Class: com/mojang/brigadier/builder/LiteralArgumentBuilder
 Cant Find Class: com/mojang/brigadier/Command
 Cant Find Class: com/mojang/brigadier/builder/ArgumentBuilder
 Cant Find Class: com/mojang/brigadier/arguments/BoolArgumentType
-Cant Find Class: org/apache/commons/lang3/mutable/MutableInt
-Cant Find Class: com/google/common/collect/Iterables
-Cant Find Class: com/google/common/collect/Streams
 Cant Find Class: com/mojang/brigadier/builder/RequiredArgumentBuilder
 Cant Find Class: com/mojang/brigadier/arguments/IntegerArgumentType
 Cant Find Class: com/mojang/brigadier/arguments/StringArgumentType
+Cant Find Class: com/mojang/brigadier/suggestion/Suggestions
 Cant Find Class: com/mojang/brigadier/tree/LiteralCommandNode
+Cant Find Class: org/apache/commons/lang3/mutable/MutableInt
+Cant Find Class: com/google/common/collect/Iterables
+Cant Find Class: com/google/common/collect/Streams
 Cant Find Class: com/google/common/base/Stopwatch
 Cant Find Class: com/mojang/datafixers/DataFixer
 Cant Find Class: com/mojang/serialization/Lifecycle
@@ -10084,32 +10084,26 @@ Cant Find Class: org/apache/commons/io/FilenameUtils
 Cant Find Class: javax/annotation/Nonnull
 Cant Find Class: javax/annotation/meta/TypeQualifierDefault
 Cant Find Class: com/google/common/base/Ticker
-Cant Find Class: com/mojang/datafixers/DSL$TypeReference
-Cant Find Class: com/mojang/datafixers/DSL
 Cant Find Class: com/google/gson/JsonDeserializer
 Cant Find Class: com/google/gson/JsonSerializer
 Cant Find Class: com/google/gson/JsonObject
+Cant Find Class: com/mojang/datafixers/DSL$TypeReference
+Cant Find Class: com/mojang/datafixers/DSL
 Cant Find Class: com/google/gson/JsonElement
 Cant Find Class: com/google/gson/JsonSyntaxException
 Cant Find Class: com/google/gson/JsonParseException
+Cant Find Class: io/netty/buffer/ByteBuf
 Cant Find Class: com/google/common/util/concurrent/MoreExecutors
 Cant Find Class: com/google/common/util/concurrent/ListeningExecutorService
-Cant Find Class: io/netty/buffer/ByteBuf
+Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArrayList
+Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectListIterator
+Cant Find Class: com/google/gson/JsonPrimitive
+Cant Find Class: com/google/gson/JsonNull
+Cant Find Class: com/google/gson/JsonArray
 Cant Find Class: com/mojang/datafixers/types/Type
 Cant Find Class: com/mojang/bridge/game/GameVersion
 Cant Find Class: com/mojang/datafixers/DataFixUtils
 Cant Find Class: com/mojang/datafixers/schemas/Schema
-Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArrayList
-Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectListIterator
-Cant Find Class: com/google/gson/JsonNull
-Cant Find Class: com/google/gson/JsonArray
-Cant Find Class: com/google/common/collect/Iterators
-Cant Find Class: com/google/gson/JsonPrimitive
-Cant Find Class: com/mojang/serialization/DataResult
-Cant Find Class: it/unimi/dsi/fastutil/ints/IntArrayList
-Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectList
-Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntOpenHashMap
-Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMap
 Cant Find Class: com/google/common/collect/ImmutableMap
 Cant Find Class: com/google/gson/JsonSerializationContext
 Cant Find Class: com/google/gson/JsonDeserializationContext
@@ -10117,6 +10111,12 @@ Cant Find Class: com/mojang/brigadier/ImmutableStringReader
 Cant Find Class: com/mojang/brigadier/exceptions/BuiltInExceptionProvider
 Cant Find Class: com/mojang/brigadier/exceptions/DynamicCommandExceptionType
 Cant Find Class: com/google/common/collect/ImmutableSet
+Cant Find Class: com/google/common/collect/Iterators
+Cant Find Class: com/mojang/serialization/DataResult
+Cant Find Class: it/unimi/dsi/fastutil/ints/IntArrayList
+Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectList
+Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntOpenHashMap
+Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanMap$Entry
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanOpenHashMap
@@ -10134,8 +10134,8 @@ Cant Find Class: org/apache/commons/lang3/ArrayUtils
 Cant Find Class: com/mojang/brigadier/ParseResults
 Cant Find Class: com/mojang/brigadier/ResultConsumer
 Cant Find Class: com/mojang/brigadier/context/CommandContextBuilder
-Cant Find Class: com/mojang/brigadier/context/ParsedArgument
 Cant Find Class: com/mojang/brigadier/tree/RootCommandNode
+Cant Find Class: com/mojang/brigadier/context/ParsedArgument
 Cant Find Class: com/mojang/brigadier/tree/CommandNode
 Cant Find Class: com/mojang/brigadier/suggestion/SuggestionProvider
 Cant Find Class: com/mojang/brigadier/context/StringRange
@@ -10148,9 +10148,9 @@ Cant Find Class: com/google/common/primitives/Doubles
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic3CommandExceptionType$Function
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic3CommandExceptionType
 Cant Find Class: com/google/common/collect/UnmodifiableIterator
-Cant Find Class: com/mojang/brigadier/tree/ArgumentCommandNode
 Cant Find Class: com/mojang/brigadier/arguments/FloatArgumentType
 Cant Find Class: com/mojang/brigadier/arguments/DoubleArgumentType
+Cant Find Class: com/mojang/brigadier/tree/ArgumentCommandNode
 Cant Find Class: com/mojang/brigadier/arguments/LongArgumentType
 Cant Find Class: com/mojang/brigadier/arguments/StringArgumentType$StringType
 Cant Find Class: com/google/common/base/Strings
@@ -10173,15 +10173,15 @@ Cant Find Class: javax/annotation/concurrent/Immutable
 Cant Find Class: com/google/common/base/MoreObjects$ToStringHelper
 Cant Find Class: org/apache/commons/lang3/Validate
 Cant Find Class: com/mojang/serialization/Decoder
-Cant Find Class: com/mojang/serialization/Dynamic
 Cant Find Class: com/google/common/collect/ImmutableMap$Builder
 Cant Find Class: com/mojang/serialization/DataResult$PartialResult
 Cant Find Class: com/mojang/serialization/codecs/UnboundedMapCodec
 Cant Find Class: com/mojang/serialization/Encoder
-Cant Find Class: com/google/common/base/Supplier
-Cant Find Class: com/google/common/base/Suppliers
+Cant Find Class: com/mojang/serialization/Dynamic
 Cant Find Class: org/jetbrains/annotations/Nullable
+Cant Find Class: com/google/common/base/Supplier
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongConsumer
+Cant Find Class: com/google/common/base/Suppliers
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntOpenCustomHashMap
 Cant Find Class: com/google/common/base/Predicate
 Cant Find Class: com/google/common/collect/ImmutableList$Builder
@@ -10190,8 +10190,6 @@ Cant Find Class: com/google/common/base/Function
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap
 Cant Find Class: org/jetbrains/annotations/NotNull
-Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
-Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CZILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
 Cant Find Class: oshi/hardware/CentralProcessor$ProcessorIdentifier
 Cant Find Class: oshi/hardware/CentralProcessor
 Cant Find Class: oshi/SystemInfo
@@ -10200,6 +10198,8 @@ Cant Find Class: oshi/hardware/PhysicalMemory
 Cant Find Class: oshi/hardware/VirtualMemory
 Cant Find Class: oshi/hardware/GlobalMemory
 Cant Find Class: oshi/hardware/GraphicsCard
+Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
+Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CZILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMaps
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMap$Entry
 Cant Find Class: org/apache/commons/io/FileUtils
@@ -10236,13 +10236,13 @@ Cant Find Class: com/mojang/serialization/MapLike
 Cant Find Class: com/mojang/serialization/RecordBuilder
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2ObjectArrayMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArraySet
-Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectOpenHashSet
 Cant Find Class: com/mojang/datafixers/Products$P4
 Cant Find Class: com/mojang/datafixers/util/Function4
-Cant Find Class: it/unimi/dsi/fastutil/shorts/Short2ObjectMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongOpenHashSet
+Cant Find Class: it/unimi/dsi/fastutil/shorts/Short2ObjectMap
 Cant Find Class: it/unimi/dsi/fastutil/shorts/Short2ObjectOpenHashMap
+Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectOpenHashSet
 Cant Find Class: it/unimi/dsi/fastutil/shorts/Short2ObjectFunction
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ByteMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ByteOpenHashMap
@@ -10289,10 +10289,10 @@ Cant Find Class: it/unimi/dsi/fastutil/ints/IntRBTreeSet
 Cant Find Class: it/unimi/dsi/fastutil/ints/IntSortedSet
 Cant Find Class: it/unimi/dsi/fastutil/ints/IntBidirectionalIterator
 Cant Find Class: it/unimi/dsi/fastutil/doubles/Double2DoubleFunction
-Cant Find Class: org/apache/commons/lang3/mutable/MutableDouble
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2IntMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2IntOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2IntFunction
+Cant Find Class: org/apache/commons/lang3/mutable/MutableDouble
 Cant Find Class: com/mojang/datafixers/Products$P15
 Cant Find Class: com/mojang/datafixers/util/Function15
 Cant Find Class: com/google/common/hash/HashFunction
@@ -10383,13 +10383,13 @@ Cant Find Class: com/google/gson/JsonIOException
 Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteCollection
 Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteOpenHashSet
 Cant Find Class: com/mojang/serialization/RecordBuilder$AbstractStringBuilder
-Cant Find Class: com/google/common/base/Splitter
 Cant Find Class: com/google/common/collect/PeekingIterator
+Cant Find Class: com/google/common/base/Splitter
 Cant Find Class: io/netty/util/ResourceLeakDetector$Level
 Cant Find Class: io/netty/util/ResourceLeakDetector
 Cant Find Class: com/google/common/hash/HashingOutputStream
-Cant Find Class: com/google/common/util/concurrent/ThreadFactoryBuilder
 Cant Find Class: com/google/gson/reflect/TypeToken
+Cant Find Class: com/google/common/util/concurrent/ThreadFactoryBuilder
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2BooleanFunction
 Cant Find Class: com/google/gson/TypeAdapterFactory
 Cant Find Class: io/netty/util/internal/ThreadLocalRandom
@@ -10425,16 +10425,15 @@ Cant Find Class: com/google/common/math/Quantiles$Scale
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleRBTreeMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleSortedMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleSortedMaps
+Cant Find Class: com/google/gson/LongSerializationPolicy
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2LongMaps
 Cant Find Class: io/netty/buffer/ByteBufAllocator
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleMap
-Cant Find Class: com/google/gson/LongSerializationPolicy
 Cant Find Class: org/apache/commons/lang3/ObjectUtils
 Cant Find Class: com/mojang/authlib/yggdrasil/ServicesKeyInfo
 Cant Find Class: it/unimi/dsi/fastutil/floats/FloatList
 Cant Find Class: it/unimi/dsi/fastutil/floats/FloatArrayList
-Unexpected lack of synthetic args to the constructor: expected [Lnet/minecraft/util/ExtraCodecs;] at the start of <init>(Ljava/util/function/Function;)V in net/minecraft/util/ExtraCodecs$1ContextRetrievalCodec
 Cant Find Class: com/sun/jna/platform/win32/Tlhelp32$MODULEENTRY32W
 Cant Find Class: com/sun/jna/platform/win32/Tlhelp32
 Cant Find Class: com/sun/jna/Platform
@@ -10443,23 +10442,24 @@ Cant Find Class: com/sun/jna/platform/win32/Kernel32Util
 Cant Find Class: com/sun/jna/ptr/IntByReference
 Cant Find Class: com/sun/jna/platform/win32/Version
 Cant Find Class: com/sun/jna/Native
+Unexpected lack of synthetic args to the constructor: expected [Lnet/minecraft/util/ExtraCodecs;] at the start of <init>(Ljava/util/function/Function;)V in net/minecraft/util/ExtraCodecs$1ContextRetrievalCodec
 Cant Find Class: com/sun/jna/platform/win32/Win32Exception
 Cant Find Class: com/sun/jna/Memory
 Cant Find Class: com/sun/jna/Pointer
 Cant Find Class: com/sun/jna/ptr/PointerByReference
 Cant Find Class: com/google/gson/stream/JsonToken
 Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteArrays
+Cant Find Class: io/netty/handler/codec/EncoderException
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2FloatOpenCustomHashMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2FloatMaps
-Cant Find Class: io/netty/handler/codec/EncoderException
 Cant Find Class: com/mojang/brigadier/context/ParsedCommandNode
 Cant Find Class: io/netty/handler/codec/MessageToByteEncoder
-Cant Find Class: io/netty/channel/ChannelHandlerContext
 Cant Find Class: io/netty/channel/ChannelInitializer
 Cant Find Class: io/netty/channel/Channel
 Cant Find Class: io/netty/channel/ChannelPipeline
 Cant Find Class: io/netty/channel/ChannelHandler
 Cant Find Class: io/netty/handler/codec/DecoderException
+Cant Find Class: io/netty/channel/ChannelHandlerContext
 Cant Find Class: io/netty/handler/codec/ByteToMessageDecoder
 Cant Find Class: io/netty/util/AttributeKey
 Cant Find Class: io/netty/util/Attribute
@@ -10492,16 +10492,15 @@ Cant Find Class: it/unimi/dsi/fastutil/ints/IntPredicate
 Cant Find Class: com/mojang/brigadier/suggestion/Suggestion
 Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortSet
 Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortIterator
-Cant Find Class: io/netty/buffer/ByteBufOutputStream
-Cant Find Class: io/netty/buffer/ByteBufInputStream
 Cant Find Class: io/netty/channel/ChannelException
 Cant Find Class: io/netty/channel/ChannelOption
 Cant Find Class: io/netty/handler/timeout/ReadTimeoutHandler
+Cant Find Class: io/netty/buffer/ByteBufOutputStream
+Cant Find Class: io/netty/buffer/ByteBufInputStream
 Cant Find Class: io/netty/util/ByteProcessor
 Cant Find Class: io/netty/util/ReferenceCounted
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic4CommandExceptionType$Function
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic4CommandExceptionType
-Cant Find Class: com/mojang/logging/LogQueues
 Cant Find Class: com/mojang/brigadier/RedirectModifier
 Cant Find Class: com/mojang/brigadier/SingleRedirectModifier
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectMap$FastEntrySet
@@ -10510,21 +10509,22 @@ Cant Find Class: it/unimi/dsi/fastutil/longs/Long2IntMaps
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSets$EmptySet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSets
 Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortOpenHashSet
+Cant Find Class: com/mojang/logging/LogQueues
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectSortedMap$FastSortedEntrySet
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectSortedMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectBidirectionalIterator
-Found extra RuntimeVisibleParameterAnnotations entries in <init>(Lnet/minecraft/server/ServerFunctionManager;Lnet/minecraft/server/ServerFunctionManager$TraceCallbacks;)V in net/minecraft/server/ServerFunctionManager$ExecutionContext: removing 1
 Cant Find Class: com/mojang/authlib/yggdrasil/YggdrasilAuthenticationService
+Found extra RuntimeVisibleParameterAnnotations entries in <init>(Lnet/minecraft/server/ServerFunctionManager;Lnet/minecraft/server/ServerFunctionManager$TraceCallbacks;)V in net/minecraft/server/ServerFunctionManager$ExecutionContext: removing 1
 Cant Find Class: com/google/common/base/Functions
+Cant Find Class: com/google/common/base/CharMatcher
+Cant Find Class: org/apache/commons/io/filefilter/DirectoryFileFilter
+Cant Find Class: org/apache/commons/io/filefilter/IOFileFilter
 Cant Find Class: io/netty/channel/ChannelInboundHandlerAdapter
 Cant Find Class: io/netty/channel/epoll/EpollServerSocketChannel
 Cant Find Class: io/netty/channel/socket/nio/NioServerSocketChannel
 Cant Find Class: io/netty/bootstrap/ServerBootstrap
 Cant Find Class: io/netty/channel/socket/ServerSocketChannel
-Cant Find Class: com/google/common/base/CharMatcher
 Cant Find Class: io/netty/channel/local/LocalAddress
-Cant Find Class: org/apache/commons/io/filefilter/DirectoryFileFilter
-Cant Find Class: org/apache/commons/io/filefilter/IOFileFilter
 Cant Find Class: com/google/common/primitives/Ints
 Cant Find Class: com/mojang/authlib/exceptions/AuthenticationUnavailableException
 Cant Find Class: io/netty/util/Timer
@@ -15824,7 +15824,7 @@ Writing Output: /workspaces/SevenServer/servidor_minecraft/./libraries/net/minec
     /workspaces/SevenServer/servidor_minecraft/./libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
     /workspaces/SevenServer/servidor_minecraft/./libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
     /workspaces/SevenServer/servidor_minecraft/./libraries/trove/trove/1.0.2/trove-1.0.2.jar
-  Args: --clean, /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar, --output, /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-server.jar, --apply, /tmp/forge_installer7864088699188632043/data/server.lzma
+  Args: --clean, /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar, --output, /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-server.jar, --apply, /tmp/forge_installer4130100584696635791/data/server.lzma
 Applying: 
   Clean:     /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar
   Output:    /workspaces/SevenServer/servidor_minecraft/./libraries/net/minecraftforge/forge/1.19.2-43.4.2/forge-1.19.2-43.4.2-server.jar
@@ -15832,7 +15832,7 @@ Applying:
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: /tmp/forge_installer7864088699188632043/data/server.lzma
+Loading patches file: /tmp/forge_installer4130100584696635791/data/server.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch

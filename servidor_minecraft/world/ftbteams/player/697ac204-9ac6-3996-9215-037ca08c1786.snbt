@@ -1,0 +1,28 @@
+{
+	id: "697ac204-9ac6-3996-9215-037ca08c1786"
+	type: "player"
+	player_name: "G4R3N"
+	ranks: {
+		697ac204-9ac6-3996-9215-037ca08c1786: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "G4R3N"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59DB"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [ ]
+	extra: { }
+}

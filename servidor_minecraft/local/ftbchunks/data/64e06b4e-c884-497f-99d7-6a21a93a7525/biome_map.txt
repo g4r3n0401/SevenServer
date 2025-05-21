@@ -1,0 +1,10 @@
+#36D byg:black_forest
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
+#3A0 minecraft:frozen_river
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#5FF minecraft:river
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga
